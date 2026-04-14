@@ -10,6 +10,10 @@ class_name = "VaultSyncServer"
 name = "YAOS_CONFIG"
 class_name = "ServerConfig"
 
+[[r2_buckets]]
+binding = "YAOS_BUCKET"
+bucket_name = "yaosbucket"
+
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["VaultSyncServer", "ServerConfig"]
